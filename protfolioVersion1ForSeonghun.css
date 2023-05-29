@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    
+    
+}
+.header {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px 20px 20px;
+    text-align: center;
+    background-image: url('../../resources/portVer1_header.jpg');
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 0;
+}
+
+.nav.scrolled {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    z-index: 1;
+}
+.nav h1, .nav .menu a {
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+.nav.scrolled h1, .nav.scrolled .menu a {
+    color: #000000;
+    
+}
+
+.nav h1 {
+    flex-basis: 25%;
+    text-align: left;
+    margin-left: 20px;
+    color: #000;
+}
+.nav .menu {
+    flex-basis: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#header_name{
+    font-family: 'Black Han Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 3em;
+    color: white;
+}
+
+#header_name2{
+    font-family: 'Black Han Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: white;
+}
+
+.header hr {
+    width: 50%;
+    border: 1px solid #ff7f00;
+    margin-bottom: 30px;
+}
+.header p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2em;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.header .btn {
+    padding: 5px 20px;
+    background-color: #ff7f00;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    top:10%;
+}
+
+
+
+/* -------------------헤더 끝 --------------*/
+
+
+
+.section {
+    padding: 20px;
+}
+.about-me {
+    height: 70vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* -----------타이틀 시작---------- */
+.title-frame{
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    right:1%;
+}
+
+.clip-image {
+    position: relative;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../resources/titmeClip.jpg);
+    background-size: cover;
+}
+
+#title {
+    font-family: 'Black Han Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+/* -----------타이틀 끝---------- */
+.about-me .content {
+    margin-top: 100px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+.about-me .content-item {
+
+    display: flex;
+
+    align-items: center;
+    text-align: left;
+}
+
+
+.about-me .content-item img {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+.about-me .content-item p {
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: 700;
+    color:#454648;
+}
+
+.about-me .content-item .small-text {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #888888;
+}
+
+/* Experience 섹션 시작 */
+
+.section_Experience{
+    height: 70vh;
+    
+}
+
+.exp_contatiner{
+    position: relative;
+    top:150px;
+    margin : auto;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    right: 10px;
+
+}
+
+.exp_sub_box{
+    width:30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+
+}
+
+.exp_sub_box .sub_title{
+    display: flex;
+    height: 10%;
+}
+
+.exp_sub_box .sub_title img{
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+.exp_sub_box .sub_title .title_text{
+    font-size: 1.4em;
+    margin: 0;
+    font-weight: 700;
+    color:#454648;
+    
+}
+
+
+.exp_sub_box p{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #454648;
+}
+
+.exp_sub_box p .small_text{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #888888;  
+}
+
+
+
+
+
+/* 스킬 섹션 시작 */
+
+.section_skills{
+    border: 1px solid red;
+    height: 200vh;
+    background-color: #F9C51D;
+}
+
+.title-box{
+    position: relative;
+    top:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
