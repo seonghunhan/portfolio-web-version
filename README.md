@@ -86,6 +86,8 @@
 └── README.md                            # 프로젝트에 대한 설명이 적힌 README 파일
 ```
 
+## 배포환경
+![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/2f4bea2f-fa3c-4a32-8ce7-a9fda9f8a097)
 
 
 ## Functional Description & Details
