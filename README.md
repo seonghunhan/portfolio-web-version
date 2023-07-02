@@ -1,4 +1,6 @@
 # Digital HanaRoan
+## Deployment
+https://www.hanaroan.shop
 
 ## Team Members
 
