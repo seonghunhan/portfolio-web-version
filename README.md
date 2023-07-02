@@ -107,7 +107,6 @@ https://www.hanaroan.shop
 
 ## 🗄️ 데이터베이스 모델링
 
-<hr>
 
 ### 개념적 설계
 ![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/ccb73fa6-122b-432e-9e16-ca514676d4e9)
