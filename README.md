@@ -1,10 +1,12 @@
 # 🏦 Digital HanaRoan
 ![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/87aa9293-a542-456d-b197-a2625f6d87e4)
 
-
+<br>
 
 ## 🚀 Deployment
 https://www.hanaroan.shop
+
+<br>
 
 ## 👥 Team Members
 
@@ -15,8 +17,12 @@ https://www.hanaroan.shop
 |Member|성창호|kylesung0520@gmail.com|[Github Link](https://github.com/kylesung0520) |
 |Member|한성훈|cnf101219@gmail.com  |[Github Link](https://github.com/seonghunhan)  |
 
+<br>
+
 ## 📄 Project Description
 금융권 개발자에 대한 관심으로 실제 대출 상품 이용과 관련하여 고민했고, 이에 대출 운영 간소화 및 수작업을 감소시키기 위해 관리자 시스템 및 간략한 사용자 화면을 구축
+
+<br>
 
 ## 💻 기술 스택 🛠️
 
@@ -54,7 +60,7 @@ https://www.hanaroan.shop
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> | <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> |
 
-
+<br>
 
 ## 📂 Folder Structure
 - Controller: 사용자의 요청을 처리하고, 해당 요청에 따른 적절한 동작을 수행한 후, 응답을 생성합니다. 요청은 URL, HTTP 메소드, 헤더, 쿠키, 요청 본문 등을 포함할 수 있습니다.
@@ -92,8 +98,12 @@ https://www.hanaroan.shop
 └── README.md                            # 프로젝트에 대한 설명이 적힌 README 파일
 ```
 
+<br>
+
 ## 🌐 배포환경
 ![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/2f4bea2f-fa3c-4a32-8ce7-a9fda9f8a097)
+
+<br>
 
 ## 🗄️ 데이터베이스 모델링
 
@@ -159,6 +169,7 @@ https://www.hanaroan.shop
     - 고객의 신용 점수가 최소신용점수보다 낮으면 신청이 되지 않는다.
     - 한 명의 고객이 같은 대출 상품을 여러번 신청은 가능하지만 관리자페이지에서 제한된다.
 
+<br>
 
 ## 🎓 배운점 & 🚀 느낀점
 
