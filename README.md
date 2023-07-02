@@ -118,7 +118,8 @@ https://www.hanaroan.shop
 
 ### 유스케이스
 ![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/36c420ef-3e68-4fd9-9608-eb8d8406ce3e)
-<hr>
+
+<br>
 
 ## ℹ️ Functional Description & Details
 
