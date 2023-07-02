@@ -89,6 +89,17 @@
 ## 배포환경
 ![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/2f4bea2f-fa3c-4a32-8ce7-a9fda9f8a097)
 
+## 데이터베이스 모델링
+
+### 개념적 설계
+![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/ccb73fa6-122b-432e-9e16-ca514676d4e9)
+
+### 논리적 설계
+![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/523ab247-3465-4588-b595-919b65676af2)
+
+### 유스케이스
+![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/36c420ef-3e68-4fd9-9608-eb8d8406ce3e)
+
 
 ## Functional Description & Details
 
