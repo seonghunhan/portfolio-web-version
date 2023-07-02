@@ -12,6 +12,42 @@
 ## Project Description
 금융권 개발자에 대한 관심으로 실제 대출 상품 이용과 관련하여 고민했고, 이에 대출 운영 간소화 및 수작업을 감소시키기 위해 관리자 시스템 및 간략한 사용자 화면을 구축
 
+## 💻 기술 스택
+
+### 개발 환경
+
+| IDE                                                                                                            | JDK                                                                                                      | Build                                                                                                  | Database Tool |
+|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|
+| <img src="https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=IntelliJIDEA&logoColor=white"> | <img  src="https://img.shields.io/badge/JDK 11-007396?style=for-the-badge&logo=Java&logoColor=white"> | <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"> | <img src="https://img.shields.io/badge/DataGrip-000000?style=for-the-badge&logo=JetBrains&logoColor=white"> |
+
+### Frontend
+
+| HTML                                                                                                 | CSS                                                                                               | JavaScript                                                                                                     | AJAX                                                                                                 |
+|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> | <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"> | <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"> | <img src="https://img.shields.io/badge/AJAX-0076D6?style=for-the-badge&logo=Microsoft Azure&logoColor=white"> |
+
+| JSP                                                                                                 | 
+|------------------------------------------------------------------------------------------------------| 
+| <img src="https://img.shields.io/badge/JSP-ED8B00?style=for-the-badge&logo=Java&logoColor=white"> |
+
+### Backend
+
+| Java                                                                                                 | Servlet                                                                                               |
+|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=Java&logoColor=white"> | <img src="https://img.shields.io/badge/Servlet-ED8B00?style=for-the-badge&logo=Java&logoColor=white"> |
+
+### DevOps
+
+| AWS                                                                                                     | RDS                                                                                                | Redis                                                                                                 | Nginx                                                                                                 | Reverse Proxy                                                                                                 | SSL                                                                                                |
+|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white"> | <img src="https://img.shields.io/badge/RDS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white"> | <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white"> | <img src="https://img.shields.io/badge/Nginx-269539?style=for-the-badge&logo=Nginx&logoColor=white"> | <img src="https://img.shields.io/badge/Reverse Proxy-269539?style=for-the-badge&logo=Nginx&logoColor=white"> | <img src="https://img.shields.io/badge/SSL-721412?style=for-the-badge&logo=Let's Encrypt&logoColor=white"> |
+
+### 협업
+
+| GIT                                                                                                     | Notion                                                                                                |
+|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> | <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> |
+
 ## Functional Description & Details
 
 ### <고객 홈>
