@@ -48,6 +48,46 @@
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> | <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> |
 
+
+
+## Folder Structure
+- Controller: 사용자의 요청을 처리하고, 해당 요청에 따른 적절한 동작을 수행한 후, 응답을 생성합니다. 요청은 URL, HTTP 메소드, 헤더, 쿠키, 요청 본문 등을 포함할 수 있습니다.
+
+- Service: 비즈니스 로직을 담당합니다. Service는 Controller에 의해 호출되어 실제로 데이터를 처리하고, DAO를 통해 데이터를 저장, 수정, 삭제, 조회합니다. 이러한 연산을 수행하는 로직이 포함됩니다.
+
+- DAO (Data Access Object): 데이터베이스 접근 로직을 담당합니다. DAO는 Service에 의해 호출되며, 데이터베이스에 직접 접근하여 데이터를 CRUD(생성, 읽기, 업데이트, 삭제)하는 역할을 합니다.
+
+- Model (DTO): 애플리케이션의 데이터를 담는 객체입니다. 이들은 데이터베이스 테이블을 나타낼 수도 있고, 복잡한 비즈니스 로직을 수행하는데 필요한 정보를 담을 수도 있습니다.
+
+- Config: 환경설정 파일들이 저장되는 디렉터리입니다. 데이터베이스 연결정보, 보안설정 등이 포함될 수 있습니다.
+
+- Utils: 애플리케이션 전반에서 사용되는 유틸리티 클래스들이 저장되는 디렉터리입니다.
+ 
+```
+├── main
+│   ├── java
+│   │   ├── com
+│   │   │   ├── Background               # 백그라운드로 실행되는 컴포넌트들 (예: Redis)
+│   │   │   ├── Config                   # 환경 설정 파일들 (예: Secret Keys)
+│   │   │   ├── Controller               # 사용자의 요청 처리 및 응답을 담당하는 컨트롤러들
+│   │   │   ├── DAO                      # 데이터베이스 접근을 담당하는 DAO (Data Access Object) 코드들
+│   │   │   ├── Model                    # DTO (Data Transfer Object) 클래스들
+│   │   │   ├── Service                  # 비즈니스 로직을 담당하는 서비스 클래스들
+│   │   │   └── Utils                    # 유틸리티 클래스들 (예: DB 연결, 정규 표현식 등)
+│   ├── webapp
+│   │   ├── css                          # CSS 스타일시트 파일들
+│   │   ├── img                          # 이미지 리소스들
+│   │   ├── js                           # 자바스크립트 코드 파일들
+│   │   ├── jsp                          # JSP (Java Server Pages) 파일들
+│   │   ├── resource                     # 공통 리소스 파일들
+│   │   ├── scss                         # SCSS 파일들
+│   │   ├── vendor                       # 외부 라이브러리들
+│   │   └── WEB-INF                      # 웹 애플리케이션에 필요한 자원들을 담고 있는 디렉토리 (예: 보안 설정, 서블릿 매핑 등)
+└── README.md                            # 프로젝트에 대한 설명이 적힌 README 파일
+```
+
+
+
 ## Functional Description & Details
 
 ### <고객 홈>
