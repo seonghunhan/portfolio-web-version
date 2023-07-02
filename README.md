@@ -1,11 +1,12 @@
-# Digital HanaRoan
+# 🏦 Digital HanaRoan
+![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/87aa9293-a542-456d-b197-a2625f6d87e4)
 
-<br><br>
 
-## Deployment
+
+## 🚀 Deployment
 https://www.hanaroan.shop
 
-## Team Members
+## 👥 Team Members
 
 |Role |Name  |Email                |Github                                         |
 |-----|------|---------------------|-----------------------------------------------|
@@ -14,10 +15,10 @@ https://www.hanaroan.shop
 |Member|성창호|kylesung0520@gmail.com|[Github Link](https://github.com/kylesung0520) |
 |Member|한성훈|cnf101219@gmail.com  |[Github Link](https://github.com/seonghunhan)  |
 
-## Project Description
+## 📄 Project Description
 금융권 개발자에 대한 관심으로 실제 대출 상품 이용과 관련하여 고민했고, 이에 대출 운영 간소화 및 수작업을 감소시키기 위해 관리자 시스템 및 간략한 사용자 화면을 구축
 
-## 💻 기술 스택
+## 💻 기술 스택 🛠️
 
 ### 개발 환경
 
@@ -55,7 +56,7 @@ https://www.hanaroan.shop
 
 
 
-## Folder Structure
+## 📂 Folder Structure
 - Controller: 사용자의 요청을 처리하고, 해당 요청에 따른 적절한 동작을 수행한 후, 응답을 생성합니다. 요청은 URL, HTTP 메소드, 헤더, 쿠키, 요청 본문 등을 포함할 수 있습니다.
 
 - Service: 비즈니스 로직을 담당합니다. Service는 Controller에 의해 호출되어 실제로 데이터를 처리하고, DAO를 통해 데이터를 저장, 수정, 삭제, 조회합니다. 이러한 연산을 수행하는 로직이 포함됩니다.
@@ -91,22 +92,26 @@ https://www.hanaroan.shop
 └── README.md                            # 프로젝트에 대한 설명이 적힌 README 파일
 ```
 
-## 배포환경
+## 🌐 배포환경
 ![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/2f4bea2f-fa3c-4a32-8ce7-a9fda9f8a097)
 
-## 데이터베이스 모델링
+## 🗄️ 데이터베이스 모델링
+
+<hr>
 
 ### 개념적 설계
 ![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/ccb73fa6-122b-432e-9e16-ca514676d4e9)
+<hr>
 
 ### 논리적 설계
 ![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/523ab247-3465-4588-b595-919b65676af2)
+<hr>
 
 ### 유스케이스
 ![image](https://github.com/seonghunhan/portfolio-web-version/assets/88662101/36c420ef-3e68-4fd9-9608-eb8d8406ce3e)
+<hr>
 
-
-## Functional Description & Details
+## ℹ️ Functional Description & Details
 
 ### <고객 홈>
 
